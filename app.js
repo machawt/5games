@@ -17,8 +17,9 @@ function generateComputerChoice(){
   if (randomNumber===3){
     computerChoice='ਜੌਸ਼'}
 }
-  computerChoiceDisplay.innerHTML=randomNumber//computerChoice
-  function getResult(){
+  computerChoiceDisplay.innerHTML=computerChoice
+} 
+function getResult(){
     if (computerChoice===userChoice)
     {result="It's a draw!"}
         if (computerChoice==='ਕਿ੍ਸਟੀਨਾ'&& userChoice==='ਅੰਮ੍ਰਿਤ')
