@@ -7,7 +7,9 @@ let computerChoice
 possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',(e)=>{
   userChoice=e.target.id
   userChoiceDisplay.innerHTML=userChoice
-  generateComputerChoice()}))
+  generateComputerChoice()
+getResult()
+}))
 function generateComputerChoice(){
   const randomNumber=Math.floor(Math.random()*3)+1
   if (randomNumber===1){
