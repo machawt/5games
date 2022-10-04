@@ -2,6 +2,7 @@ const computerChoiceDisplay=document.getElementById ('computer-choice');
 const userChoiceDisplay=document.getElementById ('user-choice');
 const resultDisplay=document.getElementById ('result');
 const possibleChoices=document.querySelectorAll(".one")
+const possibleChoices2=document.querySelectorAll(".two")
 let userChoice
 let computerChoice
 possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',(e)=>{
@@ -11,7 +12,7 @@ possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',
 getResult()
 }))
 function generateComputerChoice(){
-  const randomNumber=Math.floor(Math.random()*3)+1
+ /* const randomNumber=Math.floor(Math.random()*3)+1
   if (randomNumber===1){
     computerChoice='ਕਿ੍ਸਟੀਨਾ'}
   if (randomNumber===2){
@@ -19,7 +20,10 @@ function generateComputerChoice(){
   if (randomNumber===3){
     computerChoice='ਜੌਸ਼'}
 
-  computerChoiceDisplay.innerHTML=computerChoice
+*/
+possibleChoices2.forEach(possibleChoice=>possibleChoice.addEventListener('click',(e)=>{
+  computerChoice=e.target.id
+  computerChoiceDisplay.innerHTML=
 }
 function getResult(){
     if (computerChoice===userChoice)
