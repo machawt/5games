@@ -5,7 +5,7 @@ const possibleChoices=document.querySelectorAll('button')
 let userChoice
 possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',(e)=>{
   userChoice=e.target.id
-  userCHoiceDisplay.innerHTML=userChoice
+  userChoiceDisplay.innerHTML=userChoice
   generateComputerChoice()
 }}}
 function generateComputerChoice(){
