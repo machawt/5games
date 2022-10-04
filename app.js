@@ -17,7 +17,22 @@ function generateComputerChoice(){
   if (randomNumber===3){
     computerChoice='ਜੌਸ਼'}
   computerChoiceDisplay.innerHTML=computerChoice
-  
+  function getResult(){
+    if (computerChoice===userChoice)
+    {result="It's a draw!"}
+        if (computerChoice==='ਕਿ੍ਸਟੀਨਾ'&& userChoice==='ਅੰਮ੍ਰਿਤ')
+    {result="You lose!"}
+         if (computerChoice==='ਕਿ੍ਸਟੀਨਾ'&& userChoice==='ਜੌਸ਼')
+    {result="You win!"}
+            if (computerChoice==='ਅੰਮ੍ਰਿਤ'&& userChoice==='ਕਿ੍ਸਟੀਨਾ')
+    {result="You lose!"}
+         if (computerChoice==='ਅੰਮ੍ਰਿਤ'&&userChoice==='ਜੌਸ਼')
+    {result="You win!"}
+                if (computerChoice==='ਜੌਸ਼'&& userChoice==='ਕਿ੍ਸਟੀਨਾ')
+    {result="You win!"}
+         if (computerChoice==='ਜੌਸ਼'&&userChoice==='ਅੰਮ੍ਰਿਤ')
+    {result="You lose!"}
+    resultDisplay.innerHTML=result
   }
 //<button id = "cj">ਕਿ੍ਸਟੀਨਾ</button>
 //<button id = "am">ਅੰਮ੍ਰਿਤ</button>
