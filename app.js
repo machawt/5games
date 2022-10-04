@@ -11,11 +11,14 @@ possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',
 function generateComputerChoice(){
   const randomNumber=Math.floor(Math.random()*3)+1
   if (randomNumber===1){
-    computerChoice='rock'}
+    computerChoice='ਿ੍ਸਟੀਨਾ'}
   if (randomNumber===2){
-    computerChoice='paper'}
+    computerChoice='ਅੰਮ੍ਰਿਤ'}
   if (randomNumber===3){
-    computerChoice='scissors'}
-  
+    computerChoice='ਜੌਸ਼'}
+  computerChoiceDisplay.innerHTML=computerChoice
   
   }
+//<button id = "cj">ਕਿ੍ਸਟੀਨਾ</button>
+//<button id = "am">ਅੰਮ੍ਰਿਤ</button>
+//<button id = "josh">ਜੌਸ਼</button>
