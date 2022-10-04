@@ -15,6 +15,7 @@ function generateComputerChoice(){
     computerChoice='ਅੰਮ੍ਰਿਤ'}
   if (randomNumber===3){
     computerChoice='ਜੌਸ਼'}
+}
   computerChoiceDisplay.innerHTML=computerChoice
   function getResult(){
     if (computerChoice===userChoice)
