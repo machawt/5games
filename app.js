@@ -10,7 +10,7 @@ possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',
 function generateComputerChoice(){
   const randomNumber=Math.floor(Math.random()*3)+1
   if (randomNumber===1){
-    computerChoice='ਿ੍ਸਟੀਨਾ'}
+    computerChoice='ਕਿ੍ਸਟੀਨਾਾ'}
   if (randomNumber===2){
     computerChoice='ਅੰਮ੍ਰਿਤ'}
   if (randomNumber===3){
