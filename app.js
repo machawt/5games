@@ -23,7 +23,7 @@ function generateComputerChoice(){
 */
 possibleChoices2.forEach(possibleChoice=>possibleChoice.addEventListener('click',(e)=>{
   computerChoice=e.target.id
-  computerChoiceDisplay.innerHTML=
+  computerChoiceDisplay.innerHTML=computerChoice
 }
 function getResult(){
     if (computerChoice===userChoice)
