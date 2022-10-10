@@ -8,16 +8,18 @@ let computerChoice
 possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',(e)=>{
   userChoice=e.target.id
   userChoiceDisplay.innerHTML=userChoice
- // generateComputerChoice()
+ generateComputerChoice()
+
 getResult()
-}))/*
+}))
 function generateComputerChoice(){
+computerChoice="1"
  //const randomNumber=Math.floor(Math.random()*3)+1
  
 
 
-possibleChoices2.forEach(possibleChoice2=>possibleChoice2.addEventListener('click',(f)=>{
-  computerChoice=f.target.id
+//possibleChoices2.forEach(possibleChoice2=>possibleChoice2.addEventListener('click',(f)=>{
+//  computerChoice=f.target.id
 if (computerChoice==="1"){
     computerChoice='ਕਿ੍ਸਟੀਨਾ'}
   if (computerChoice==='2'){
@@ -42,7 +44,7 @@ function getResult(){
          if (computerChoice==='ਜੌਸ਼'&&userChoice==='ਅੰਮ੍ਰਿਤ')
     {result="You win!"}
     resultDisplay.innerHTML=result
-  }*/
+  }
 //<button id = "cj">ਕਿ੍ਸਟੀਨਾ</button>
 //<button id = "am">ਅੰਮ੍ਰਿਤ</button>
 //<button id = "josh">ਜੌਸ਼</button>
