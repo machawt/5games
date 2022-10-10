@@ -27,7 +27,7 @@ if (computerChoice==="1"){
   if (computerChoice==='3'){
     computerChoice='ਜੌਸ਼'}
   computerChoiceDisplay.innerHTML=computerChoice
-}))
+}))}
 function getResult(){
     if (computerChoice===userChoice)
     {result="It's a draw!"}
