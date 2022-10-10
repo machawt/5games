@@ -7,7 +7,7 @@ let userChoice
 let computerChoice
 possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',(e)=>{
   userChoice=e.target.id
-  userChoiceDisplay.innerHTML=userChoice
+ // userChoiceDisplay.innerHTML=userChoice
  generateComputerChoice()
 
 
@@ -26,9 +26,11 @@ if (computerChoice==="1"){
     computerChoice='ਅੰਮ੍ਰਿਤ';getResult()}
   if (computerChoice==='3'){
     computerChoice='ਜੌਸ਼';getResult()}
-  computerChoiceDisplay.innerHTML=computerChoice
+ // computerChoiceDisplay.innerHTML=computerChoice
 }))}
 function getResult(){
+userChoiceDisplay.innerHTML=userChoice
+computerChoiceDisplay.innerHTML=computerChoice
     if (computerChoice===userChoice)
     {result="It's a draw!"}
         if (computerChoice==='ਕਿ੍ਸਟੀਨਾ'&& userChoice==='ਅੰਮ੍ਰਿਤ')
