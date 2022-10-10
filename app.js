@@ -8,9 +8,9 @@ let computerChoice
 possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',(e)=>{
   userChoice=e.target.id
   userChoiceDisplay.innerHTML=userChoice
-  generateComputerChoice()
+ // generateComputerChoice()
 getResult()
-}))
+}))/*
 function generateComputerChoice(){
  //const randomNumber=Math.floor(Math.random()*3)+1
  
@@ -42,7 +42,7 @@ function getResult(){
          if (computerChoice==='ਜੌਸ਼'&&userChoice==='ਅੰਮ੍ਰਿਤ')
     {result="You win!"}
     resultDisplay.innerHTML=result
-  }
+  }*/
 //<button id = "cj">ਕਿ੍ਸਟੀਨਾ</button>
 //<button id = "am">ਅੰਮ੍ਰਿਤ</button>
 //<button id = "josh">ਜੌਸ਼</button>
