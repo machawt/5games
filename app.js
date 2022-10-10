@@ -1,4 +1,4 @@
-const computerChoiceDisplay=document.getElementById ('computer-choice');
+Hiconst computerChoiceDisplay=document.getElementById ('computer-choice');
 const userChoiceDisplay=document.getElementById ('user-choice');
 const resultDisplay=document.getElementById ('result');
 const possibleChoices=document.querySelectorAll(".one")
@@ -16,8 +16,8 @@ function generateComputerChoice(){
  
 
 
-possibleChoices2.forEach(possibleChoice=>possibleChoice.addEventListener('click',(e)=>{
-  computerChoice=e.target.id
+possibleChoices2.forEach(possibleChoice2=>possibleChoice2.addEventListener('click',(f)=>{
+  computerChoice=f.target.id
 if (computerChoice==="1"){
     computerChoice='ਕਿ੍ਸਟੀਨਾ'}
   if (computerChoice==='2'){
