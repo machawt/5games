@@ -32,17 +32,17 @@ function getResult(){
     if (computerChoice===userChoice)
     {result="It's a draw!"}
         if (computerChoice==='ਕਿ੍ਸਟੀਨਾ'&& userChoice==='ਅੰਮ੍ਰਿਤ')
-    {result="You win!"}
+    {result="Player 1 wins!"}
          if (computerChoice==='ਕਿ੍ਸਟੀਨਾ'&& userChoice==='ਜੌਸ਼')
-    {result="You lose!"}
+    {result="Player 2 wins!"}
             if (computerChoice==='ਅੰਮ੍ਰਿਤ'&& userChoice==='ਕਿ੍ਸਟੀਨਾ')
-    {result="You win!"}
+    {result="Player 1 wins!"}
          if (computerChoice==='ਅੰਮ੍ਰਿਤ'&&userChoice==='ਜੌਸ਼')
-    {result="You lose!"}
+    {result="Player 2 wins!"}
                 if (computerChoice==='ਜੌਸ਼'&& userChoice==='ਕਿ੍ਸਟੀਨਾ')
-    {result="You lose!"}
+    {result="Player 2 wins!"}
          if (computerChoice==='ਜੌਸ਼'&&userChoice==='ਅੰਮ੍ਰਿਤ')
-    {result="You win!"}
+    {result="Player 1 wins!"}
     resultDisplay.innerHTML=result
   }
 //<button id = "cj">ਕਿ੍ਸਟੀਨਾ</button>
