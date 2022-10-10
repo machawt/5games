@@ -12,17 +12,18 @@ possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',
 getResult()
 }))
 function generateComputerChoice(){
- /* const randomNumber=Math.floor(Math.random()*3)+1
-  if (randomNumber===1){
-    computerChoice='ਕਿ੍ਸਟੀਨਾ'}
-  if (randomNumber===2){
-    computerChoice='ਅੰਮ੍ਰਿਤ'}
-  if (randomNumber===3){
-    computerChoice='ਜੌਸ਼'}*/
+ //const randomNumber=Math.floor(Math.random()*3)+1
+ 
 
 
 possibleChoices2.forEach(possibleChoice=>possibleChoice.addEventListener('click',(e)=>{
   computerChoice=e.target.id
+if (computerChoice==="1"){
+    computerChoice='ਕਿ੍ਸਟੀਨਾ'}
+  if (computerChoice==='2'){
+    computerChoice='ਅੰਮ੍ਰਿਤ'}
+  if (computerChoice==='3'){
+    computerChoice='ਜੌਸ਼'}
   computerChoiceDisplay.innerHTML=computerChoice
 }
 function getResult(){
