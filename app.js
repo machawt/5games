@@ -10,7 +10,7 @@ possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',
   userChoiceDisplay.innerHTML=userChoice
  generateComputerChoice()
 
-getResult()
+
 }))
 function generateComputerChoice(){
 //computerChoice="1"
@@ -21,11 +21,11 @@ function generateComputerChoice(){
 possibleChoices2.forEach(possibleChoice2=>possibleChoice2.addEventListener('click',(f)=>{
  computerChoice=f.target.id
 if (computerChoice==="1"){
-    computerChoice='ਕਿ੍ਸਟੀਨਾ'}
+    computerChoice='ਕਿ੍ਸਟੀਨਾ';getResult()}
   if (computerChoice==='2'){
-    computerChoice='ਅੰਮ੍ਰਿਤ'}
+    computerChoice='ਅੰਮ੍ਰਿਤ';getResult()}
   if (computerChoice==='3'){
-    computerChoice='ਜੌਸ਼'}
+    computerChoice='ਜੌਸ਼';getResult()}
   computerChoiceDisplay.innerHTML=computerChoice
 }))}
 function getResult(){
