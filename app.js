@@ -20,7 +20,7 @@ function generateComputerChoice(){
   if (randomNumber===3){
     computerChoice='ਜੌਸ਼'}
 
-*/
+
 possibleChoices2.forEach(possibleChoice=>possibleChoice.addEventListener('click',(e)=>{
   computerChoice=e.target.id
   computerChoiceDisplay.innerHTML=computerChoice
@@ -41,7 +41,7 @@ function getResult(){
          if (computerChoice==='ਜੌਸ਼'&&userChoice==='ਅੰਮ੍ਰਿਤ')
     {result="You win!"}
     resultDisplay.innerHTML=result
-  }
+  }*/
 //<button id = "cj">ਕਿ੍ਸਟੀਨਾ</button>
 //<button id = "am">ਅੰਮ੍ਰਿਤ</button>
 //<button id = "josh">ਜੌਸ਼</button>
