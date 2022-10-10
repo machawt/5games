@@ -13,13 +13,13 @@ possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',
 getResult()
 }))
 function generateComputerChoice(){
-computerChoice="1"
+//computerChoice="1"
  //const randomNumber=Math.floor(Math.random()*3)+1
  
 
 
-//possibleChoices2.forEach(possibleChoice2=>possibleChoice2.addEventListener('click',(f)=>{
-//  computerChoice=f.target.id
+possibleChoices2.forEach(possibleChoice2=>possibleChoice2.addEventListener('click',(f)=>{
+ computerChoice=f.target.id
 if (computerChoice==="1"){
     computerChoice='ਕਿ੍ਸਟੀਨਾ'}
   if (computerChoice==='2'){
@@ -27,7 +27,7 @@ if (computerChoice==="1"){
   if (computerChoice==='3'){
     computerChoice='ਜੌਸ਼'}
   computerChoiceDisplay.innerHTML=computerChoice
-}
+}))
 function getResult(){
     if (computerChoice===userChoice)
     {result="It's a draw!"}
