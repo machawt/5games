@@ -12,6 +12,7 @@ possibleChoices.forEach(possibleChoice=>possibleChoice.addEventListener('click',
 
 
 }))
+function rl(){location.reload()};
 function generateComputerChoice(){
 //computerChoice="1"
  //const randomNumber=Math.floor(Math.random()*3)+1
