@@ -37,7 +37,7 @@ computerChoiceDisplay.innerHTML=computerChoice
         if (computerChoice==='ਕਿ੍ਸਟੀਨਾ'&& userChoice==='ਅੰਮ੍ਰਿਤ')
     {result="Player 1 wins!"}
          if (computerChoice==='ਕਿ੍ਸਟੀਨਾ'&& userChoice==='ਜੌਸ਼')
-    {result="Player 2 wins!"}
+    {result="Player 1 wins!"}
             if (computerChoice==='ਅੰਮ੍ਰਿਤ'&& userChoice==='ਕਿ੍ਸਟੀਨਾ')
     {result="Player 1 wins!"}
          if (computerChoice==='ਅੰਮ੍ਰਿਤ'&&userChoice==='ਜੌਸ਼')
@@ -45,7 +45,7 @@ computerChoiceDisplay.innerHTML=computerChoice
                 if (computerChoice==='ਜੌਸ਼'&& userChoice==='ਕਿ੍ਸਟੀਨਾ')
     {result="Player 2 wins!"}
          if (computerChoice==='ਜੌਸ਼'&&userChoice==='ਅੰਮ੍ਰਿਤ')
-    {result="Player 1 wins!"}
+    {result="Player 2 wins!"}
     resultDisplay.innerHTML=result
   }
 //<button id = "cj">ਕਿ੍ਸਟੀਨਾ</button>
