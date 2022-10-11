@@ -35,11 +35,11 @@ computerChoiceDisplay.innerHTML=computerChoice
     if (computerChoice===userChoice)
     {result="It's a draw!"}
         if (computerChoice==='ਕਿ੍ਸਟੀਨਾ'&& userChoice==='ਅੰਮ੍ਰਿਤ')
-    {result="Player 1 wins!"}
+    {result="Player 2 wins!"}
          if (computerChoice==='ਕਿ੍ਸਟੀਨਾ'&& userChoice==='ਜੌਸ਼')
-    {result="Player 1 wins!"}
+    {result="Player 2 wins!"}
             if (computerChoice==='ਅੰਮ੍ਰਿਤ'&& userChoice==='ਕਿ੍ਸਟੀਨਾ')
-    {result="Player 1 wins!"}
+    {result="Player 2 wins!"}
          if (computerChoice==='ਅੰਮ੍ਰਿਤ'&&userChoice==='ਜੌਸ਼')
     {result="Player 2 wins!"}
                 if (computerChoice==='ਜੌਸ਼'&& userChoice==='ਕਿ੍ਸਟੀਨਾ')
